@@ -1,0 +1,29 @@
+.TodoEditor{
+  width:600px;
+  display: flex;
+  flex-direction:column;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius:4px;
+  margin-bottom: 20px;
+  margin-left: 42px;
+}
+.TodoEditor__textarea{
+  line-height: 16px;
+  height: 80px;
+  padding: 12px 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.TodoEditor__button{
+  border:none;
+  padding: 10px 15px;
+  background-color: teal;
+  color:white;
+  font-weight: 700;
+  font-weight: 500px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+}
